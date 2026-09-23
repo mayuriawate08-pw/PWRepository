@@ -6,9 +6,15 @@
 echo "# PWRepository" >> README.md
 open cmd & execute below commands
 git init
-git add README.md
+git config --global user.name "mayuriawate08-pw"       
+
+git config --global user.email "mayuriawate08@gmail.com"
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/mayuriawate08-pw/PWRepository.git
 git push -u origin main
-/*/
+complete authentication in you browser
+create new branch
+/
+*/
